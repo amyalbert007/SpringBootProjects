@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cg.registrationapp.exception.RegistrationNotFoundException;
 import com.cg.registrationapp.model.Registration;
 import com.cg.registrationapp.service.RegistrationService;
-@CrossOrigin(origins = "http://localhost:3000")
+
 @RestController
 @RequestMapping("/register")
 public class RegistrationController {

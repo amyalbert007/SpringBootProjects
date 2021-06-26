@@ -10,28 +10,28 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RegistrationApp {
 	public static void main(String[] args) {
-		//Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		
-		//Integer adminId=1234;
-		//String password="admin";
+		Integer adminId=1234;
+		String password="admin";
 		
-		//System.out.println("Enter the credentials:");
+		System.out.println("Enter the credentials:");
 		
-		//System.out.println("Enter AdminId");
-		//Integer ipId=sc.nextInt();
+		System.out.println("Enter AdminId");
+		Integer ipId=sc.nextInt();
 		
-		//System.out.println("Enter password");
-		//String ipPassword=sc.next();
+		System.out.println("Enter password");
+		String ipPassword=sc.next();
 		
-		//if(ipId.equals(adminId) && ipPassword.equals(password)) {
+		if(ipId.equals(adminId) && ipPassword.equals(password)) {
 		SpringApplication.run(RegistrationApp.class, args);
 		
-		//System.out.println("------------------SERVER started---------PORT=8067--------------"
-			//	+ "");
-		//}else {
-		//	System.out.println("Try again with valid credentials.....");
-		//	System.exit(0);
-		//}
-	//} 
+		System.out.println("------------------SERVER started---------PORT=8090--------------"
+				+ "");
+		}else {
+			System.out.println("Try again with valid credentials.....");
+			System.exit(0);
+		}
+	} 
 	}
-}
+
